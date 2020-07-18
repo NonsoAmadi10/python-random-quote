@@ -5,7 +5,7 @@ def index():
     quotes = f.readlines()
     f.close()
 
-    print(quotes[len(quotes) - 1])
+    print(quotes[13])
 
 
 if __name__ == "__main__":
